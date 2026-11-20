@@ -2,91 +2,89 @@ body {
     margin: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient( 90deg, #b3f1f3, #666666, #a6c9f7d5);
+    background: linear-gradient( 90deg, #2b787ac4, #666666, #a6c9f7d5);
     
 }
 
+img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%; 
+      
+} 
+
 /*ENCABEZADO*/
-.encabezado {
-    display: flex;
-    justify-content: space-around;
+.encabezado {    
     width: 80%;
-    height: 120px;
+    height: 320px;
     margin: 0%;
     padding: 2% 10%;    
 }
 
-#logo {
-    width: 20%;
-    max-height: 130px;
-    border-radius: 50%;
+h2 {
+    font-size: 3.5em;
+    color: white;
+    padding: 0.5%;      
 }
 
-#banner {
-    width: 54%;
-}
-.image {
-    display: flex;
-    align-items: center;
-    width: 50%;
-    max-height: 120px;
-    
-}
-nav {
-    display: flex;   
-    justify-content: space-around;
+p {
+    text-align: justify;
+    font-size: 2em;
+    color: white;
+    padding-bottom : 2%;      
 }
 
-nav a { 
-    font-size: 1.5em;
-    text-decoration: none;
-    color: aqua;
-}
-
-.menu {
-    height: 120px;
-    width: 30%;
-    padding-top: 7%;
-}
-
-/*MAIN*/
 .principal {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 2%;
-    background-image: url(img/banner.jpg);
+    /*background-image: url(img/banner.jpg);*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.contenedor-perfil {
-    width: 320px;
-    height: 320px;  
+nav {
+    padding: 0 0 2% 70%;
+
+    display: flex;   
+    justify-content: space-around;    
 }
 
-.contenedor-perfil img {
+nav a { 
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(244, 247, 248);
+}
+
+/*MAIN*/
+main {    
     width: 100%;
-    border-radius: 50%;    
-} 
-
-
-
-/*SOBRE MI*/
-
-main h2 {
-    font-size: 3.5em;
-    color: blue;
-    padding: 2%;      
+    height: 320px;
+    margin: 0%;
+    padding: 2% 10%;    
 }
 
-main p {
-    text-align: justify;
-    font-size: 2em;
-    color: blue;
-    padding: 2%;      
-}
+/*
+Habilidades técnicas (Stack)
+Agrupa tus conocimientos por categorías para que un reclutador los escanee rápido:
+Maquetación y estilos: HTML5 semántico, CSS3, Diseño Responsive, Flexbox, CSS Grid.
+Programación e interactividad: JavaScript (DOM, eventos, consumo de APIs básicas).
+Gestión y publicación: Git, GitHub, subida por FTP/cPanel, optimización básica (SEO técnico y rendimiento), WordPress.
 
+Sobre mí
+Un párrafo cercano contando tu transición o interés por el desarrollo web y tu formación actual.
+Destaca habilidades blandas clave en este sector: atención al detalle, resolución de problemas y aprendizaje continuo.
+
+Contacto y pie de página (Footer)
+Un formulario de contacto funcional (puedes usar servicios gratuitos como Formspree para que funcione sin necesidad de backend) o tu correo electrónico visible con opción de copiarlo.
+Enlaces directos a tu perfil de GitHub y LinkedIn.
+3 ideas de proyectos para rellenar tu portfolio ahora mismo
+Si aún no tienes clientes reales, construye estas tres piezas para demostrar todo lo que abarca tu certificado:
+Web corporativa para un negocio local ficticio: Por ejemplo, una clínica dental, una cafetería o un taller. Demuestra que sabes estructurar información comercial, integrar mapas y crear formularios de reserva.
+Landing page de producto o evento: Una página muy visual enfocada en diseño moderno, animaciones suaves con CSS, uso de Grid/Flexbox y adaptación perfecta a móvil.
+Pequeña aplicación interactiva con JavaScript: Una calculadora de presupuestos, un gestor de tareas o un buscador que consuma una API gratuita (como el tiempo o películas). Esto demuestra lógica de programación más allá del diseño estático.
+*/
  
     
