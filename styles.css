@@ -1,90 +1,115 @@
 body {
-    margin: 0;
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient( 90deg, #2b787ac4, #666666, #a6c9f7d5);
-    
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  /*background: linear-gradient( 90deg, #2b787ac4, #666666, #a6c9f7d5);*/
+  background-color: #0f172a;
+  color: #f8fafc;
 }
 
-img {
-    width: 320px;
-    height: 320px;
-    border-radius: 50%; 
-      
-} 
-
 /*ENCABEZADO*/
-.encabezado {    
-    width: 80%;
-    height: 320px;
-    margin: 0%;
-    padding: 2% 10%;    
+
+.encabezado {
+  width: 80%;
+  height: 320px;
+  margin: 0%;
+  padding: 2% 10%;
+}
+.encabezado img {  
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+}
+
+.encabezado div {
+  background: radial-gradient(#491988, #4d1794, #0f172a, #0f172a);
 }
 
 h2 {
-    font-size: 3.5em;
-    color: white;
-    padding: 0.5%;      
+  font-size: 1.3em;
+  padding: 0.5%;
 }
 
 p {
-    text-align: justify;
-    font-size: 2em;
-    color: white;
-    padding-bottom : 2%;      
+  text-align: justify;
+  font-size: 1.3em;
+  padding-bottom: 2%;
+  color: #94a3b8;
 }
 
 .principal {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 2%;
-    /*background-image: url(img/banner.jpg);*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2%;
 }
 
 nav {
-    padding: 0 0 2% 70%;
-
-    display: flex;   
-    justify-content: space-around;    
+  padding: 0 0 2% 70%;
+  display: flex;
+  justify-content: space-around;
 }
 
-nav a { 
-    font-size: 1.5em;
-    text-decoration: none;
-    color: rgb(244, 247, 248);
+nav a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #38bdf8;
 }
 
 /*MAIN*/
-main {    
-    width: 100%;
-    height: 320px;
-    margin: 0%;
-    padding: 2% 10%;    
+main {
+  height: 320px;
+  margin: 0%;
+  padding: 2% 10%;
 }
 
+.habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 2%;
+}
+
+main article {
+    width: 100%;
+}
+
+.habilidades div {
+    font-size: 1.3em;
+}
+ 
+.proyectos {
+    width: 100%;
+    padding: 2% 2%;
+}
 /*
 Habilidades técnicas (Stack)
 Agrupa tus conocimientos por categorías para que un reclutador los escanee rápido:
 Maquetación y estilos: HTML5 semántico, CSS3, Diseño Responsive, Flexbox, CSS Grid.
 Programación e interactividad: JavaScript (DOM, eventos, consumo de APIs básicas).
-Gestión y publicación: Git, GitHub, subida por FTP/cPanel, optimización básica (SEO técnico y rendimiento), WordPress.
+Gestión y publicación: Git, GitHub, subida por FTP/cPanel, optimización básica 
+(SEO técnico y rendimiento), WordPress.
 
 Sobre mí
-Un párrafo cercano contando tu transición o interés por el desarrollo web y tu formación actual.
-Destaca habilidades blandas clave en este sector: atención al detalle, resolución de problemas y aprendizaje continuo.
+Un párrafo cercano contando tu transición o interés por el desarrollo web y tu 
+formación actual.
+Destaca habilidades blandas clave en este sector: atención al detalle, resolución 
+de problemas y aprendizaje continuo.
 
 Contacto y pie de página (Footer)
-Un formulario de contacto funcional (puedes usar servicios gratuitos como Formspree para que funcione sin necesidad de backend) o tu correo electrónico visible con opción de copiarlo.
+Un formulario de contacto funcional (puedes usar servicios gratuitos como Formspree 
+para que funcione sin necesidad de backend) o tu correo electrónico visible con 
+opción de copiarlo.
 Enlaces directos a tu perfil de GitHub y LinkedIn.
 3 ideas de proyectos para rellenar tu portfolio ahora mismo
-Si aún no tienes clientes reales, construye estas tres piezas para demostrar todo lo que abarca tu certificado:
-Web corporativa para un negocio local ficticio: Por ejemplo, una clínica dental, una cafetería o un taller. Demuestra que sabes estructurar información comercial, integrar mapas y crear formularios de reserva.
-Landing page de producto o evento: Una página muy visual enfocada en diseño moderno, animaciones suaves con CSS, uso de Grid/Flexbox y adaptación perfecta a móvil.
-Pequeña aplicación interactiva con JavaScript: Una calculadora de presupuestos, un gestor de tareas o un buscador que consuma una API gratuita (como el tiempo o películas). Esto demuestra lógica de programación más allá del diseño estático.
+Si aún no tienes clientes reales, construye estas tres piezas para demostrar todo lo
+que abarca tu certificado:
+Web corporativa para un negocio local ficticio: Por ejemplo, una clínica dental, una 
+cafetería o un taller. Demuestra que sabes estructurar información comercial, integrar 
+mapas y crear formularios de reserva.
+Landing page de producto o evento: Una página muy visual enfocada en diseño moderno, 
+animaciones suaves con CSS, uso de Grid/Flexbox y adaptación perfecta a móvil.
+Pequeña aplicación interactiva con JavaScript: Una calculadora de presupuestos, un 
+gestor de tareas o un buscador que consuma una API gratuita (como el tiempo o 
+películas). Esto demuestra lógica de programación más allá del diseño estático.
 */
- 
-    
