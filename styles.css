@@ -22,7 +22,7 @@ body {
 }
 
 .encabezado div {
-  background: radial-gradient(#491988, #4d1794, #0f172a, #0f172a);
+  background: radial-gradient(#49198885, #4d17947a, #0f172a, #0f172a);
 }
 
 h2 {
@@ -40,7 +40,7 @@ p {
 .principal {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   padding: 2%;
 }
 
@@ -68,15 +68,24 @@ main {
     align-items: center;
     justify-content: space-between;
     padding: 2% 2%;
-}
+    background: radial-gradient(#0f172a, #49198867, #4d17947a, #0f172a, #0f172a);
+} 
 
 main article {
     width: 100%;
 }
 
-.habilidades div {
+.div-habil {
+  background: radial-gradient(#621cbd6b, #0f172a, #0f172a);
+  border-top: 1px solid #621cbd;
+  border-radius: 8%;
+  gap: 0.5%;
+  margin: 2%;
+}
+
+.habilidades div {  
     width: 90%;
-    font-size: 1.3em;
+    font-size: 1em;
 }
  
 .proyectos {
